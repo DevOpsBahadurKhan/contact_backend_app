@@ -1,4 +1,4 @@
-FROM docker pull eclipse-temurin:11-jdk
+FROM eclipse-temurin:11-jdk
 
 COPY target/contact-backend-app.jar  /usr/app/
 
